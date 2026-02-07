@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* SatoLOC Insight design tokens */
+:root {
+  --primary: #3B82F6;
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --border: #E5E7EB;
+  --card-bg: #FFFFFF;
+  --page-bg: #F5F7FA;
+  --success: #22C55E;
+  --orange: #F97316;
+  --radius-card: 8px;
+  --radius-btn: 6px;
+  --radius-input: 4px;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.dark {
+  --page-bg: #111827;
+  --card-bg: #1F2937;
+  --text-primary: #F9FAFB;
+  --text-secondary: #9CA3AF;
+  --border: #374151;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, 'Inter', -apple-system, sans-serif;
+  font-size: 14px;
+  color: var(--text-primary);
+  background: var(--page-bg);
+  min-height: 100vh;
+}
