@@ -237,7 +237,7 @@ export function AiSearchConsoleDashboard() {
             AI Search Console
           </h1>
           <p className="text-sm text-[var(--text-secondary)] mt-0.5">
-            Hello Pinar!
+            Track how AI engines cite your brand and monitor your share of voice
           </p>
         </div>
         <div className="flex items-center gap-3">
